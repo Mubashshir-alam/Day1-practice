@@ -8,7 +8,6 @@ If it does not satisfy any of the above given conditions, display "Invalid"."""
 
 def display(num):
     message=""
-    #write your logic here
     if num%3==0 and num%5==0:
         message="Zoom"
     elif num%3==0:
